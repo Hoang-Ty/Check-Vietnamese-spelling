@@ -173,6 +173,7 @@ def remove_random_space(text):
 
 
 data_file = "/content/Vietnamese-Corrector/data/data50k.vi.txt" #"data/en.wikidump.processed.24m.txt" #
+data_file = "/content/Vietnamese-Corrector/data/vietDict.txt"
 language = "vi"
 num_lines = sum(1 for line in open(data_file, 'r'))
 
